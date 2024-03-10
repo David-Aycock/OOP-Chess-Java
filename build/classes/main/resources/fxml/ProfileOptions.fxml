@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.java.ProfileOptionsController"> 
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Chess_Splash_Page.jpg" />
+         </image>
+      </ImageView>
+      <Button alignment="CENTER" layoutX="490.0" layoutY="397.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#changeToDeleteProfile" prefHeight="90.0" prefWidth="300.0" style="-fx-background-color: #511111;" text="Delete Profile" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button alignment="CENTER" layoutX="490.0" layoutY="269.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#changeToStatistics" prefHeight="90.0" prefWidth="300.0" style="-fx-background-color: #511111;" text="Statistics" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#backToProfileSelection" prefHeight="74.0" prefWidth="74.0" style="-fx-background-radius: 100;">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Back_Arrow.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>

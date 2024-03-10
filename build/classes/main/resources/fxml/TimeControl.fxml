@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controllers.java.TimeControlController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Chess_Splash_Page.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn1" contentDisplay="CENTER" layoutX="230.0" layoutY="269.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButton1Action" prefHeight="90.0" prefWidth="175.0" style="-fx-background-color: #511111;" text="1 | 0" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button fx:id="btn2" contentDisplay="CENTER" layoutX="464.0" layoutY="269.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButton2Action" prefHeight="90.0" prefWidth="175.0" style="-fx-background-color: #511111;" text="3 | 0" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button fx:id="btn3" contentDisplay="CENTER" layoutX="694.0" layoutY="269.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButton3Action" prefHeight="90.0" prefWidth="175.0" style="-fx-background-color: #511111;" text="5 | 0" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button fx:id="btn6" contentDisplay="CENTER" layoutX="464.0" layoutY="404.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButton6Action" prefHeight="90.0" prefWidth="175.0" style="-fx-background-color: #511111;" text="3 | 2" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button fx:id="btn5" contentDisplay="CENTER" layoutX="230.0" layoutY="404.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButton5Action" prefHeight="90.0" prefWidth="175.0" style="-fx-background-color: #511111;" text="1 | 1" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button fx:id="btn4" contentDisplay="CENTER" layoutX="907.0" layoutY="269.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButton4Action" prefHeight="90.0" prefWidth="175.0" style="-fx-background-color: #511111;" text="10 | 0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button fx:id="btn8" contentDisplay="CENTER" layoutX="907.0" layoutY="404.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButton8Action" prefHeight="90.0" prefWidth="175.0" style="-fx-background-color: #511111;" text="10 | 5" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button fx:id="btn7" contentDisplay="CENTER" layoutX="694.0" layoutY="404.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleButton7Action" prefHeight="90.0" prefWidth="175.0" style="-fx-background-color: #511111;" text="5 | 2" textFill="WHITE">
+         <font>
+            <Font name="Century" size="36.0" />
+         </font></Button>
+      <Button layoutX="14.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#backToColorSelection" prefHeight="74.0" prefWidth="74.0" style="-fx-background-radius: 100;" textFill="#511111">
+         <graphic>
+            <ImageView fitHeight="74.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Back_Arrow.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#511111" height="150.0" layoutX="506.0" layoutY="51.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" width="375.0" />
+      <Text fill="WHITE" layoutX="563.0" layoutY="144.0" strokeType="OUTSIDE" text="Select Time">
+         <font>
+            <Font name="Century" size="48.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
